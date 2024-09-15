@@ -18,7 +18,7 @@ h1{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 4px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    text-shadow: 4px 8px rgba(0,0,0,.3);
 }
 .btn{
     padding: 10px 20px;
@@ -57,6 +57,8 @@ h1{
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 h4{
     font-size: 30px;
@@ -94,4 +96,6 @@ label{
 }
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
